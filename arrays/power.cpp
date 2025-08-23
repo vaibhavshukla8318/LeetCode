@@ -26,8 +26,6 @@ double  power(double x, int n){
 }
 int main(){
 
-  // double x = 2.00000;
-  // int n = -2;
 
   double x = 2.00000;
   int n = -2147483648;

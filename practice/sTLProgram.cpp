@@ -90,8 +90,40 @@ int main(){
   //   cout << "(" << i << ")" << ", ";
   // }
 
-  vector<int> arr = {1,2,3};
-  permutationOfNumber(arr);
+  // vector<int> arr = {1,2,3};
+  // permutationOfNumber(arr);
 
+  // vector<int> m = {1,2,3,4,2,3,4};
+  // unordered_multiset<int> s(m.begin(), m.end(), 3);
+  // for(int i = 0; i<m.size(); i++){
+  //   if(m[i]==3){
+  //     continue;
+  //   }
+  //   cout << m[i] << ", ";
+  // }
+  // cout << endl;
+
+  // for(auto i:s){
+  //   cout << i << ", ";
+  // }
+
+  // string s = "pwwkew";
+  // unordered_set<char> st(s.begin(), s.end());
+  // int a = st.size();
+  // for(auto i:st){
+  //   cout <<i;
+  // }
+  // cout << endl;
+  // cout << a;
+
+  vector<string> s = {"flower","flow","flight"};
+  set<char> st;
+
+  for(auto i:s){
+    if(st.find(i) != st.end()){
+      cout << i;
+    }
+  }
   return 0;
+
 }
